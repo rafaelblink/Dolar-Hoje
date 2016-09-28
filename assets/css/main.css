@@ -10,9 +10,25 @@
 #wrapper p {
   font-size: 30px;
   padding: 0px;
-  margin: 0px;
+  margin: 10px;
+  color: #bbb;
 }
 
 #wrapper p strong {
   font-weight: bold;
+  color: #ff9e00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.title-popup {
+  color: #bbb;
 }
