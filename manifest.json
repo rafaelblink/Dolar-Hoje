@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dolar Hoje",
+  "description": "Extensão para exibir para o usuário o dolar de hoje.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title" : "Valor do dolar hoje",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "<all_urls>"
+  ]
+}

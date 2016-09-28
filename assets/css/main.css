@@ -1,0 +1,18 @@
+#wrapper {
+  margin: 0px 0px;
+  width: 275px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  max-height: 600px;
+  text-align: center;
+}
+
+#wrapper p {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#wrapper p strong {
+  font-weight: bold;
+}
