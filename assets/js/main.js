@@ -12,6 +12,8 @@ myapp.controller('dolarController', ['$scope', function ($scope) {
         });
     });
 
+    $scope.result = 0;
+
     $scope.calculateResult = function(){
       var valueFloat = 0;
       valueFloat = parseFloat($scope.inputValue);

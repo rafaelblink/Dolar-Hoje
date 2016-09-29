@@ -2,13 +2,17 @@
   "manifest_version": 2,
 
   "name": "Dolar Hoje",
-  "description": "Extensão para exibir para o usuário o dolar de hoje.",
+  "description": "Extensão para te manter informado sobre o valor do dolar diariamente.",
   "version": "1.0",
 
   "browser_action": {
     "default_title" : "Valor do dolar hoje",
-    "default_icon": "icon.png",
+    "default_icon": "assets/img/icon.png",
     "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "128": "assets/img/icon128.png"
   },
 
   "permissions": [

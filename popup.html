@@ -10,11 +10,11 @@
 </head>
 <body>
   <div id="wrapper" ng-controller="dolarController">
-    <img src="icon.png" alt="">
+    <img src="assets/img/icon.png" alt="">
     <h3 class="title-popup">Dolar Hoje</h3>
     <p>R$ <strong>{{ dolar }}</strong></p>
 
-      <input type="text" class="input-calculate" ng-change="calculateResult()" ng-model="inputValue" value="0">
+      <input type="text" placeholder="Valor a ser convertido: EX: 20.00" class="input-calculate" ng-change="calculateResult()" ng-model="inputValue" value="0">
     <p>R$ <strong>{{ result }}</strong></p>
 
   </div>
