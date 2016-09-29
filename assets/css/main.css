@@ -24,11 +24,17 @@
   padding: 0;
 }
 
-img{
+img {
   margin: 5px;
   margin-top: 10px;
 }
 
 .title-popup {
   color: #bbb;
+}
+
+.input-calculate {
+  padding: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #000000;
 }

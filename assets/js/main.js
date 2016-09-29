@@ -11,4 +11,13 @@ myapp.controller('dolarController', ['$scope', function ($scope) {
             $scope.dolar = value.toFixed(2);
         });
     });
+
+    $scope.calculateResult = function(){
+      var valueFloat = 0;
+      valueFloat = parseFloat($scope.inputValue);
+      $scope.result = (valueFloat * $scope.dolar).toFixed(2);
+      if(isNaN($scope.result)){
+        $scope.result = 0;
+      }
+    }
 }]);

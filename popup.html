@@ -13,8 +13,10 @@
     <img src="icon.png" alt="">
     <h3 class="title-popup">Dolar Hoje</h3>
     <p>R$ <strong>{{ dolar }}</strong></p>
-    <input type="text" class="calculate">
-    <p>R$ <strong>0.00</strong></p>
+
+      <input type="text" class="input-calculate" ng-change="calculateResult()" ng-model="inputValue" value="0">
+    <p>R$ <strong>{{ result }}</strong></p>
+
   </div>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/angular/angular.min.js"></script>
