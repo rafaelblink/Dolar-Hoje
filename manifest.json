@@ -3,7 +3,8 @@
 
   "name": "Dólar Hoje",
   "description": "Extensão para te manter informado sobre o valor do dolar diariamente.",
-  "version": "1.1",
+  "version": "1.2",
+  "content_security_policy": "script-src 'self' https://api.fixer.io; object-src 'self'",
 
   "browser_action": {
     "default_title" : "Valor do dolar hoje",
@@ -17,6 +18,6 @@
 
   "permissions": [
     "activeTab",
-    "<all_urls>"
+    "https://api.fixer.io/latest?base=USD"
   ]
 }
