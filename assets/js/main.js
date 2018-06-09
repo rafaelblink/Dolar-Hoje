@@ -1,7 +1,6 @@
-var url = 'https://api.fixer.io/latest?base=USD';
+var url = 'https://api.promasters.net.br/cotacao/v1/valores?moedas=USD&alt=json';
 
 var myapp = angular.module('dolarToday', []);
-$(".calculate").focus();
 
 myapp.controller('dolarController', ['$scope', function($scope) {
     var xhr = new XMLHttpRequest();
@@ -13,7 +12,7 @@ myapp.controller('dolarController', ['$scope', function($scope) {
         json = JSON.parse(json); // Parse JSON
 
         $scope.$apply(function() {
-            var value = parseFloat(json["rates"]["BRL"]);
+            var value = parseFloat(json.valores.USD.valor);
             $scope.dolar = value.toFixed(2);
         });
     };
